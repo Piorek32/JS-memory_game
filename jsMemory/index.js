@@ -40,9 +40,7 @@
     }
 
     function tilesCliked() {
-        
-        console.log(this.classList[0])
-        
+       
         if (canClick) {
             clickedTile.push(this);
             
@@ -55,7 +53,7 @@
                     if (score === 10) {
                         //end game
                     }
-                    console.log(score);
+               
                     scoreBox.innerHTML = score;
                     for (char of clickedTile) {
                         char.classList.add('matched');
