@@ -1,0 +1,115 @@
+body {
+    background-color:#f1c40f;
+    margin: 50px 0 50px 0;
+}
+
+.gameHeader {
+    flex-direction: column;
+    display: flex;
+    margin: 50px 0 50px 0;
+    align-items: center;
+}
+.gameHeader h2 {
+    margin: 5px 0;
+}
+
+
+
+.container {
+    width: 750px;
+    height: 70vh;
+    margin: auto auto;
+    justify-content:center; 
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.container > div {
+   flex-basis: 24%;
+    background-color: aqua;
+    border: 1px solid black;
+    
+}
+div > span {
+    background-color: aliceblue;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url(./question-mark-png-5a381417b26658.3492641815136245997307.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+div > span.cliked {
+    transition: 0.5s all;
+    transform: scaleX(0)
+}
+.matched {
+    opacity: 0.5;
+    pointer-events: none;
+}
+div[data-tiles="0"] {
+    background-image: url('assets/0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tiles1 {
+    background-image: url('assets/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.tiles2 {
+    background-image: url('assets/2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles3 {
+    background-image: url('assets/3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles4 {
+    background-image: url('assets/4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles5 {
+    background-image: url('assets/5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles6 {
+    background-image: url('assets/6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles7 {
+    background-image: url('assets/7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tiles8 {
+    background-image: url('assets/8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tiles9 {
+    background-image: url('assets/9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
